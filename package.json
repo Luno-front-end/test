@@ -9,7 +9,6 @@
     "start": "cross-env NODE_ENV=development webpack serve --config config/webpack.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js",
     "deploy": "gh-pages -d build"
-    
   },
   "repository": {
     "type": "git",
@@ -34,7 +33,7 @@
       "@babel/react"
     ]
   },
-    "browserslist": {
+  "browserslist": {
     "production": [
       ">0.2%",
       "not dead",
